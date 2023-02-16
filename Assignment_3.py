@@ -14,6 +14,11 @@ def multiply(nums):
 
     return (product)
 
+def reverse(nums):
+    reversed = nums[:: -1]
+
+    return (reversed)
+
 def main():
     nums = []
     user = input("Enter a number or 'done' to finish): ")
